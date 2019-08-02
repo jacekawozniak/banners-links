@@ -1,0 +1,27 @@
+{
+  "name": "learnig-git-npm",
+  "version": "1.0.0",
+  "description": "administration panel for banners and links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "nu-html-checker": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacekawozniak/banners-links.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacekawozniak/banners-links/issues"
+  },
+  "homepage": "https://github.com/jacekawozniak/banners-links#readme"
+}
