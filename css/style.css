@@ -100,6 +100,42 @@ body {
 	fill: white;
 }
 
+.manager {
+	color: grey;
+	width: 200px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.fotomanager {
+	color: grey;
+	width: 200px;
+	height: 70px;
+	float: left;
+	display: flex;
+	margin-left: 25px;
+}
+
+.managerface {
+	width: 70px;
+	height: 70px;
+}
+
+.managername {
+	width: 130px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3399ff;
+}
+
+.facephoto {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+}
+
 .main {
 	float: right;
 	width: calc(100% - 250px);
