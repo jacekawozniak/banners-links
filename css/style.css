@@ -13,7 +13,7 @@ body {
 	background-color: black;
 	position: fixed;
 	height: 100%;
-	width: 200px;
+	width: 250px;
 	margin: 0;
 	padding: 0;
 	color: white;
@@ -30,20 +30,19 @@ body {
 
 .sidebar-list {
 	list-style-type: none;
-	width: 200px;
+	width: 250px;
 	padding: 0;
 }
 
 .sidebar-list li {
 	height: 40px;
-	width: 200px; 
+	width: 250px; 
 	margin: 0;
 }
 
 .sidebar-list li a {
-	
 	display: block;
-	width: 200px;
+	width: 250px;
 	height: 40px;
 	text-decoration: none;
 	color: grey;
@@ -54,12 +53,10 @@ body {
 
 .icon-side {
 	height: 18px;
-	width: 20px;
-	background-color: yellow;
+	width: 19px;
 	margin-top: 11px;
-	margin-left: 20px;
+	margin-left: 19px;
 	margin-right: 20px;
-	color: grey;
 }
 
 .sidebar-list li a:hover {
@@ -69,17 +66,37 @@ body {
 	padding-left: 5px;
 }
 
+.sidebar-list li a:hover > .icon-side {
+	fill: white;
+}
+
 .main {
 	float: right;
-	width: calc(100% - 200px);
+	width: calc(100% - 250px);
 	height: 100px;
 }
 
 header {
 	background-color: grey;
 	position: fixed;
-	width: calc(100% - 200px);
+	width: calc(100% - 250px);
 	height: 50px;
+}
+
+.topbar-list {
+	float: right;
+	list-style-type: none;
+}
+
+.topbar-list li {
+	background-color: light-blue;
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+}
+
+.topbar-list li a {
+	display: inline-block;
 }
 
 .uppercontent {
