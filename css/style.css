@@ -223,7 +223,7 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
-	height: 900px;
+	height: 780px;
 	padding: 20px;
 }
 
@@ -363,16 +363,9 @@ header {
 	padding-top: 15px;
 }
 
-.lowercontent {
-	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-	height: 700px;
-}
-
 .chartsection {
 	width: 660px;
-	height: 620px;
+	height: 500px;
 	display: block;
 	margin: auto;
 }
@@ -452,6 +445,17 @@ header {
 	background-color: green;
 	margin-right: 15px;
 	margin-left: 10px;
+}
+
+.chart {
+	width: 100%;
+}
+
+.lowercontent {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	height: 700px;
 }
 
 [class*="col-"] {
