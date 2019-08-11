@@ -1,0 +1,140 @@
+﻿$color01: white;
+$color02: grey;
+$color03: #3a3a3a;
+$color04: orange;
+$color05: #3399ff;
+
+$background-color01: black;
+
+$fonts: "MV Boli", sans-serif;
+
+.sidebar {
+	background-color: $background-color01;
+	position: fixed;
+	height: 100%;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	color: $color01;
+}
+
+.logo {
+	margin: 0;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+}
+
+.logo-l {
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: $fonts;
+}
+
+.logo-r {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sidebar-list {
+	list-style-type: none;
+	width: 250px;
+	padding: 0;
+	li {
+		height: 40px;
+		width: 250px;
+		margin: 0;
+		a {
+			display: block;
+			width: 250px;
+			height: 40px;
+			text-decoration: none;
+			color: $color02;
+			line-height: 40px;
+			padding-left: 10px;
+			font-size: 18px;
+		}
+	}
+}
+
+.icon-h {
+	height: 30px;
+}
+
+.hamb {
+	height: 30px;
+	text-decoration: none;
+	&:hover {
+		.icon-h {
+		fill: $color01;
+		}
+	}
+}
+
+.icon-side {
+	height: 18px;
+	width: 19px;
+	margin-top: 11px;
+	margin-left: 19px;
+	margin-right: 20px;
+}
+
+.sidebar-list {
+	li {
+		a {
+			&:hover {
+			background-color: $color03;
+			color: $color01;
+			border-left: 5px solid $color04;
+			padding-left: 5px;
+			.icon-side {
+				fill: $color01;
+				}
+			}
+		}
+	}	
+}
+
+.manager {
+	color: $color02;
+	width: 200px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.fotomanager {
+	color: $color02;
+	width: 200px;
+	height: 70px;
+	float: left;
+	display: flex;
+	margin-left: 25px;
+}
+
+.managerface {
+	width: 70px;
+	height: 70px;
+}
+
+.managername {
+	width: 130px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $color05;
+}
+
+.facephoto {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+}
