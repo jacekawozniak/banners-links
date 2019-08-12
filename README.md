@@ -1,2 +1,1 @@
-# banners-links
-administration panel for banners and links
+https://github.com/jacekawozniak/banners-links
