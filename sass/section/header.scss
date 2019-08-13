@@ -1,1 +1,125 @@
+$color01: white;
+$color02: grey;
+$color05: #3399ff;
+$color06: lightgrey;
 
+$background-color01: black;
+$background-color03: white;
+
+$fonts: "MV Boli", sans-serif;
+ 
+ .logo {
+	margin: 0;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	float: left;
+	background-color: $background-color01;
+	color: $color01;
+}
+
+.logo-l {
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: $fonts;
+}
+
+.logo-r {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-h {
+	height: 30px;
+}
+
+.topbar-list {
+	float: right;
+	list-style-type: none;
+	display: flex;
+	background-color: $background-color03;
+	border-bottom: 2px solid $color06;
+	height: 50px;
+}
+
+.top1 {
+	width: 200px;
+	height: 50px;
+	border-left: 2px solid $color06;
+	display: flex;
+	float: left;
+}
+
+.top2 {
+	width: 50px;
+	height: 50px;
+	border-left: 2px solid $color06;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5px;
+}
+
+.top1a {
+	height: 50px;
+	width: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5px;
+}
+
+.top1b {
+	height: 50px;
+	width: 122px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $color02;
+	font-size: 18px;
+}
+
+.top1c {
+	height: 50px;
+	width: 40px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding-top: 5px;
+}
+
+.top1d {
+	height: 50px;
+	width: 162px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: $color05;
+}
+
+.icon-top {
+	width: 20px;
+	height: 20px;
+}
+
+.hamb {
+	height: 30px;
+	text-decoration: none;
+	background-color: $background-color01;
+	border: none;
+	cursor: pointer;
+	&:hover {
+		.icon-h {
+			fill: $color01;
+		}
+	}
+}
