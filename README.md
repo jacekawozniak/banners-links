@@ -1,1 +1,1 @@
-https://github.com/jacekawozniak/banners-links
+https://jacekawozniak.github.io/banners-links/
